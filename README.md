@@ -124,9 +124,13 @@ Haste: Grants temporary haste and reduces ability cooldowns
 ## -Special Catalysts-
 
 Throat Slit: Performs a short dash that deals 75% weapon damage and applies bleeding (arm blade only)
+
 Tether: increases range, allows the grappling hook to pull enemies and items with a 2-second cooldown (grappling hook)
+
 Piercing: Attacks bypass armor when thrown, has a 1-minute cooldown (trident only)
+
 Shattering: Fractures bones, applying slowness and increasing damage to slowed targets (mace only)
+
 Grasping: Inverts knockback, pulling enemies toward the player (scythe only)
 
 ## -Armor Catalysts-
