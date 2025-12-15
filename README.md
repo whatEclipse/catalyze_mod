@@ -112,9 +112,13 @@ Each catalyst provides either a special ability or a stat bonus.
 Serrated: Applies a bleeding effect to bladed weapons (sword, axe) 
 
 These apply to all weapons:
+
 Blazing: Applies fire damage 
+
 Freezing: Applies freezing effects
+
 Venomous: Applies poison
+
 Blinding: Applies darkness
 
 ## -Tool Catalysts-
@@ -136,9 +140,13 @@ Grasping: Inverts knockback, pulling enemies toward the player (scythe only)
 ## -Armor Catalysts-
 
 Resilience: Provides 3% damage reduction 
+
 Perception: Highlights enemies within a 5-block radius (helmet only)
+
 Titan Skin: Grants +2 knockback resistance (chestplate only)
+
 Agility: Increases step height by one block and grants a 3% speed boost (leggings only)
+
 Heavy Weight: Landing after a 30+ block fall creates a shockwave (boots only)
 
 # -- Templates --
