@@ -1,6 +1,5 @@
-                                                                                                                        --CATALYZE--
-                                                                                                                    
-                                                                                                                    author: whatEclipse
+--CATALYZE--
+author: whatEclipse
                                                                                                                     
                                                                                                                     
 Catalyze is a Minecraft mod centered around a new upgrade system called Catalyzation, you use new items called Catalysts to imbue weapons, tools and armor with new abilities and stat increments, the mod adds:
