@@ -1,10 +1,10 @@
---CATALYZE--
+# -- CATALYZE --
 author: whatEclipse
                                                                                                                                                                                                                                     
 Catalyze is a Minecraft mod centered around a new upgrade system called Catalyzation, you use new items called Catalysts to imbue weapons, tools and armor with new abilities and stat increments, the mod adds:
 3 new weapons, 4 new enchantments, 8 new items, 3 new smithing templates and 17 catalysts.
 
--- Weapons --
+# -- Weapons --
 
 Scythe: 
 
@@ -28,7 +28,7 @@ Stealthy weapon with medium statistics similar to a sword.
 Capable of parrying attacks
 May include a short dash ability (only with the Throat Slit Catalyzation)
 
--Variants-
+## -Variants-
 
 Bone: Crafted using beast tendons and bone shards,
 
@@ -36,7 +36,7 @@ Iron: Crafted using iron ingots, sticks, and leather,
 
 Netherite: Crafted using netherite, amethyst shards, and reinforced leather,
 
--- Items --
+# -- Items --
 
 Beast Tendon:
 Dropped by ravagers and used in advanced weapon crafting.
@@ -75,16 +75,16 @@ Durability: 891,
 Range: 8.5 blocks,
 Pull speed: 2.67 blocks per second
 
--- Catalyst System --
+# -- Catalyst System --
 
 Catalysts are a new upgrade system for weapons, tools, and armor.
 Applied using the smithing table.
 Require an item, a catalyst, and a matching template
 Each catalyst provides either a special ability or a stat bonus.
 
--- Catalysts --
+# -- Catalysts --
 
--Weapon Catalysts- 
+## -Weapon Catalysts- 
 Serrated: Applies a bleeding effect to bladed weapons (sword, axe) 
 
 These apply to all weapons:
@@ -93,11 +93,11 @@ Freezing: Applies freezing effects
 Venomous: Applies poison
 Blinding: Applies darkness
 
--Tool Catalysts-
+## -Tool Catalysts-
 
 Haste: Grants temporary haste and reduces ability cooldowns
 
--Special Catalysts-
+## -Special Catalysts-
 
 Throat Slit: Performs a short dash that deals 75% weapon damage and applies bleeding (arm blade only)
 Tether: increases range, allows the grappling hook to pull enemies and items with a 2-second cooldown (grappling hook)
@@ -105,7 +105,7 @@ Piercing: Attacks bypass armor when thrown, has a 1-minute cooldown (trident onl
 Shattering: Fractures bones, applying slowness and increasing damage to slowed targets (mace only)
 Grasping: Inverts knockback, pulling enemies toward the player (scythe only)
 
--Armor Catalysts-
+## -Armor Catalysts-
 
 Resilience: Provides 3% damage reduction 
 Perception: Highlights enemies within a 5-block radius (helmet only)
@@ -113,7 +113,7 @@ Titan Skin: Grants +2 knockback resistance (chestplate only)
 Agility: Increases step height by one block and grants a 3% speed boost (leggings only)
 Heavy Weight: Landing after a 30+ block fall creates a shockwave (boots only)
 
--- Templates --
+# -- Templates --
 
 Templates determine which items can receive catalysts.
 
@@ -129,7 +129,7 @@ Crafted with an empty catalyst and an echo shard
 Armor Template: Used for armor
 Crafted with an empty catalyst and an iron chestplate
 
--- Enchantments --
+# -- Enchantments --
 
 Bloody Vengeance (Scythe) : Fires a piercing red slicing projectile that hits up to four targets while borrowing life force from the user. Goes up to level II.
 
