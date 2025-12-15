@@ -31,7 +31,9 @@ May include a short dash ability (only with the Throat Slit Catalyzation)
 -Variants-
 
 Bone: Crafted using beast tendons and bone shards,
+
 Iron: Crafted using iron ingots, sticks, and leather,
+
 Netherite: Crafted using netherite, amethyst shards, and reinforced leather,
 
 -- Items --
