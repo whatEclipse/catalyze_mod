@@ -6,27 +6,51 @@ Catalyze is a Minecraft mod centered around a new upgrade system called Catalyza
 
 # -- Weapons --
 
-Scythe: 
-
-A slow but devastating two-handed weapon designed for crowd control and burst damage.
-Crafted from netherite,
-Very high damage with low attack speed
-Fires a custom slicing projectile (only when Bloddy Vengeance enchantment is present)
-Fully compatible with sword enchantments
-
-Grappling Hook:
-
-A flexible tool that blends movement and combat.
-Used for grappling terrain, pulling mobs, and flailing enemies
-Crafted using a metal hook and a rope
-Rope tier determines range, durability, and pull speed
-
-Arm Blade:
-
-A wrist-mounted weapon built for fast, aggressive playstyles.
-Stealthy weapon with medium statistics similar to a sword.
-Capable of parrying attacks
-May include a short dash ability (only with the Throat Slit Catalyzation)
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scythe</td>
+      <td>
+        <ul>
+          <li>A slow but devastating two-handed weapon designed for crowd control and burst damage.</li>
+          <li>Crafted from netherite</li>
+          <li>Very high damage with low attack speed</li>
+          <li>Fires a custom slicing projectile (only when Bloddy Vengeance enchantment is present)</li>
+          <li>Fully compatible with sword enchantments</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Grappling Hook</td>
+      <td>
+        <ul>
+          <li>A flexible tool that blends movement and combat.</li>
+          <li>Used for grappling terrain, pulling mobs, and flailing enemies</li>
+          <li>Crafted using a metal hook and a rope</li>
+          <li>Rope tier determines range, durability, and pull speed</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Arm Blade</td>
+      <td>
+        <ul>
+          <li>A wrist-mounted weapon built for fast, aggressive playstyles</li>
+          <li>Stealthy weapon with medium statistics similar to a sword</li>
+          <li>Capable of parrying attacks</li>
+          <li>Fires a custom slicing projectile (only when Bloddy Vengeance enchantment is present)</li>
+          <li>May include a short dash ability (only with the Throat Slit Catalyzation)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## -Variants-
 
