@@ -43,19 +43,12 @@ Catalyze is a Minecraft mod centered around a new upgrade system called Catalyza
           <li>Capable of parrying attacks</li>
           <li>Fires a custom slicing projectile (only when Bloddy Vengeance enchantment is present)</li>
           <li>May include a short dash ability (only with the Throat Slit Catalyzation)</li>
+          <li>Theres different tiers: Bone, Iron and Netherite</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
-
-### Variants
-
-**Bone**: Crafted using beast tendons and bone shards,
-
-**Iron**: Crafted using iron ingots, sticks, and leather,
-
-**Netherite**: Crafted using netherite, amethyst shards, and reinforced leather,
 
 ## Items
 
