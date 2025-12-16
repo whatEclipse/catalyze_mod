@@ -1,4 +1,4 @@
-# Catalyze (a mod by whatEclipse)
+# Catalyze 
 Catalyze is a Minecraft mod centered around a new upgrade system called Catalyzation, you use new items called Catalysts to imbue weapons, tools and armor with new abilities and stat increments, the mod adds:
 3 new weapons, 4 new enchantments, 8 new items, 3 new smithing templates and 17 catalysts.
 
@@ -142,78 +142,75 @@ Ropes determine the performance of the grappling hook.
     - Created by drying leather and reinforcing it with iron nuggets.
     - Required for the netherite arm blade, the netherite scythe and high-tier ropes.
 
-## -- Catalyst System --
+## Catalyst System 
 
-Catalysts are a new upgrade system for weapons, tools, and armor.
-Applied using the smithing table.
-Require an item, a catalyst, and a matching template
+**Catalysts** are a new upgrade system for weapons, tools, and armor.
+Applied using one of the 3 **new** smithing templates in a smithing table
 Each catalyst provides either a special ability or a stat bonus.
 
 ## -- Catalysts --
 
 ### -Weapon Catalysts- 
-Serrated: Applies a bleeding effect to bladed weapons (sword, axe) 
+**Serrated**: Applies a bleeding effect to bladed weapons (sword, axe) 
 
-These apply to all weapons:
+**Blazing**: Applies fire damage 
 
-Blazing: Applies fire damage 
+**Freezing**: Applies freezing effects
 
-Freezing: Applies freezing effects
+**Venomous**: Applies poison
 
-Venomous: Applies poison
-
-Blinding: Applies darkness
+**Blinding**: Applies darkness
 
 ### -Tool Catalysts-
 
-Haste: Grants temporary haste and reduces ability cooldowns
+**Haste**: Grants temporary haste and reduces ability cooldowns
 
 ### -Special Catalysts-
 
-Throat Slit: Performs a short dash that deals 75% weapon damage and applies bleeding (arm blade only)
+**Throat Slit**: Performs a short dash that deals 75% weapon damage and applies bleeding (arm blade only)
 
-Tether: increases range, allows the grappling hook to pull enemies and items with a 2-second cooldown (grappling hook)
+**Tether**: increases range, allows the grappling hook to pull enemies and items with a 2-second cooldown (grappling hook)
 
-Piercing: Attacks bypass armor when thrown, has a 1-minute cooldown (trident only)
+**Piercing**: Attacks bypass armor when thrown, has a 1-minute cooldown (trident only)
 
-Shattering: Fractures bones, applying slowness and increasing damage to slowed targets (mace only)
+**Shattering**: Fractures bones, applying slowness and increasing damage to slowed targets (mace only)
 
-Grasping: Inverts knockback, pulling enemies toward the player (scythe only)
+**Grasping**: Inverts knockback, pulling enemies toward the player (scythe only)
 
 ### -Armor Catalysts-
 
-Resilience: Provides 3% damage reduction 
+**Resilience**: Provides 3% damage reduction 
 
-Perception: Highlights enemies within a 5-block radius (helmet only)
+**Perception**: Highlights enemies within a 5-block radius (helmet only)
 
-Titan Skin: Grants +2 knockback resistance (chestplate only)
+**Titan Skin**: Grants +2 knockback resistance (chestplate only)
 
-Agility: Increases step height by one block and grants a 3% speed boost (leggings only)
+**Agility**: Increases step height by one block and grants a 3% speed boost (leggings only)
 
-Heavy Weight: Landing after a 30+ block fall creates a shockwave (boots only)
+**Heavy Weight**: Landing after a 30+ block fall creates a shockwave (boots only)
 
 ## -- Templates --
 
-Templates determine which items can receive catalysts.
+**Templates** determine which items can receive catalysts.
 
-Combat Template: Used for weapons
+**Combat Template**: Used for weapons
 Crafted with an empty catalyst and an iron sword
 
-Utility Template: Used for tools
+**Utility Template**: Used for tools
 Crafted with an empty catalyst and an iron pickaxe
 
-Specialty Template: Used for special catalysts
+**Specialty Template**: Used for special catalysts
 Crafted with an empty catalyst and an echo shard
 
-Armor Template: Used for armor
+**Armor Template**: Used for armor
 Crafted with an empty catalyst and an iron chestplate
 
 ## -- Enchantments --
 
-Bloody Vengeance (Scythe) : Fires a piercing red slicing projectile that hits up to four targets while borrowing life force from the user. Goes up to level II.
+**Crescent Blood Moon** (Scythe) : Fires a piercing red slicing projectile that hits up to four targets while borrowing life force from the user. Goes up to level II.
 
-Hidden Blade (Arm Blade) : Attacks from behind or while sneaking deal increased damage. Gets up to level III.
+**Hidden Blade** (Arm Blade) : Attacks from behind or while sneaking deal increased damage. Gets up to level III.
 
-Reach (Grappling Hook) : Increases hook range and speed by 0.5 blocks and 0.1b/s per level respectively. Goes up to level II.
+**Reach** (Grappling Hook) : Increases hook range and speed by 0.5 blocks and 0.1b/s per level respectively. Goes up to level II.
 
-Water Shock (Trident) : Creates a small shockwave with a 3–4 block radius. Damage increases with level. Goes up to level V.
+**Water Shock** (Trident) : Creates a small shockwave with a 3–4 block radius. Damage increases with level. Goes up to level V.
