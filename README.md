@@ -185,16 +185,16 @@ Ropes determine the performance of the grappling hook.
 **Templates** determine which items can receive catalysts.
 
 - **Combat Template**: Used for weapons
- - Crafted with an empty catalyst and an iron sword
+  Crafted with an empty catalyst and an iron sword
 
 - **Utility Template**: Used for tools
- - Crafted with an empty catalyst and an iron pickaxe
+  Crafted with an empty catalyst and an iron pickaxe
 
 - **Specialty Template**: Used for special catalysts
- - Crafted with an empty catalyst and an echo shard
+  Crafted with an empty catalyst and an echo shard
 
 - **Armor Template**: Used for armor
- - Crafted with an empty catalyst and an iron chestplate
+  Crafted with an empty catalyst and an iron chestplate
 
 ## Enchantments 
 
