@@ -1,11 +1,8 @@
-# -- CATALYZE --
-author: whatEclipse
-                                                                                                                                                                                                                                    
+# Catalyze (a mod by whatEclipse)
 Catalyze is a Minecraft mod centered around a new upgrade system called Catalyzation, you use new items called Catalysts to imbue weapons, tools and armor with new abilities and stat increments, the mod adds:
 3 new weapons, 4 new enchantments, 8 new items, 3 new smithing templates and 17 catalysts.
 
-# -- Weapons --
-
+## Weapons
 <table>
   <thead>
     <tr>
@@ -52,63 +49,109 @@ Catalyze is a Minecraft mod centered around a new upgrade system called Catalyza
   </tbody>
 </table>
 
-## -Variants-
+### Variants
 
-Bone: Crafted using beast tendons and bone shards,
+**Bone**: Crafted using beast tendons and bone shards,
 
-Iron: Crafted using iron ingots, sticks, and leather,
+**Iron**: Crafted using iron ingots, sticks, and leather,
 
-Netherite: Crafted using netherite, amethyst shards, and reinforced leather,
+**Netherite**: Crafted using netherite, amethyst shards, and reinforced leather,
 
-# -- Items --
+## Items
 
-Beast Tendon:
-Dropped by ravagers and used in advanced weapon crafting.
-
-Bone Shards:
-Obtained by breaking bones against stone or through crafting recipes. Used primarily for bone-based gear.
-
-Echo Crystal:
-A low-durability item crafted from echo shards and an amethyst. Fires a sound-based projectile when used.
-
-Reinforced Leather:
-A high-tier crafting material used in advanced gear and rope crafting.
-Created by drying leather and reinforcing it with iron nuggets
-Required for the netherite arm blade, the netherite scythe and high-tier ropes
-
-Ropes (Grappling Hook materials)
+### Ropes (Grappling Hook materials)
 Ropes determine the performance of the grappling hook.
 
-Fiber Rope (Tier 1):
-Durability: 210,
-Range: 3 blocks,
-Pull speed: 2 blocks per second
+<table>
+  <tr>
+    <td colspan="3" align="center"><strong>Fiber Rope</strong> (Tier 1)</td>
+  </tr>
+  <tr>
+    <td>Durabillity</td>
+    <td>Range</td>
+    <td>Pull Speed</td>
+  </tr>
+  <tr>
+    <td>210</td>
+    <td>3 blocks</td>
+    <td>2 blocks per second</td>
+  </tr>
+</table>
 
-Leather Rope (Tier 2):
-Durability: 312,
-Range: 3.5 blocks,
-Pull speed: 2 blocks per second
+<table>
+  <tr>
+    <td colspan="3" align="center"><strong>Leather Rope</strong> (Tier 2)</td>
+  </tr>
+  <tr>
+    <td>Durabillity</td>
+    <td>Range</td>
+    <td>Pull Speed</td>
+  </tr>
+  <tr>
+    <td>312</td>
+    <td>3.5 blocks</td>
+    <td>2 blocks per second</td>
+  </tr>
+</table>
 
-Chain Rope (Tier 3):
-Durability: 525,
-Range: 5.5 blocks,
-Pull speed: 2.2 blocks per second
+<table>
+  <tr>
+    <td colspan="3" align="center"><strong>Chain Rope</strong> (Tier 3)</td>
+  </tr>
+  <tr>
+    <td>Durabillity</td>
+    <td>Range</td>
+    <td>Pull Speed</td>
+  </tr>
+  <tr>
+    <td>525</td>
+    <td>5.5 blocks</td>
+    <td>2.2 blocks per second</td>
+  </tr>
+</table>
 
-Reinforced Leather Rope (Tier 4)
-Durability: 891,
-Range: 8.5 blocks,
-Pull speed: 2.67 blocks per second
+<table>
+  <tr>
+    <td colspan="3" align="center"><strong>Reinforced Leather Rope</strong> (Tier 4)</td>
+  </tr>
+  <tr>
+    <td>Durabillity</td>
+    <td>Range</td>
+    <td>Pull Speed</td>
+  </tr>
+  <tr>
+    <td>891</td>
+    <td>8.5 blocks</td>
+    <td>2.67 blocks per second</td>
+  </tr>
+</table>
 
-# -- Catalyst System --
+### Other Items
+
+  - **Beast Tendon**:
+    - Dropped by ravagers and used in advanced weapon crafting.
+
+  - **Bone Shards**:
+    - Obtained by breaking bones against stone or through crafting recipes. Used primarily for bone-based gear.
+
+  - **Echo Crystal**:
+    - A low-durability item crafted from echo shards and an amethyst. Fires a sound-based projectile when used.
+
+  - **Reinforced Leather**:
+    - A high-tier crafting material used in advanced gear and rope crafting.
+    - Created by drying leather and reinforcing it with iron nuggets.
+    - Required for the netherite arm blade, the netherite scythe and high-tier ropes.
+
+## -- Catalyst System --
 
 Catalysts are a new upgrade system for weapons, tools, and armor.
 Applied using the smithing table.
 Require an item, a catalyst, and a matching template
 Each catalyst provides either a special ability or a stat bonus.
 
-# -- Catalysts --
+## -- Catalysts --
 
-## -Weapon Catalysts- 
+### -Weapon Catalysts- 
 Serrated: Applies a bleeding effect to bladed weapons (sword, axe) 
 
 These apply to all weapons:
@@ -121,11 +164,11 @@ Venomous: Applies poison
 
 Blinding: Applies darkness
 
-## -Tool Catalysts-
+### -Tool Catalysts-
 
 Haste: Grants temporary haste and reduces ability cooldowns
 
-## -Special Catalysts-
+### -Special Catalysts-
 
 Throat Slit: Performs a short dash that deals 75% weapon damage and applies bleeding (arm blade only)
 
@@ -137,7 +180,7 @@ Shattering: Fractures bones, applying slowness and increasing damage to slowed t
 
 Grasping: Inverts knockback, pulling enemies toward the player (scythe only)
 
-## -Armor Catalysts-
+### -Armor Catalysts-
 
 Resilience: Provides 3% damage reduction 
 
@@ -149,7 +192,7 @@ Agility: Increases step height by one block and grants a 3% speed boost (legging
 
 Heavy Weight: Landing after a 30+ block fall creates a shockwave (boots only)
 
-# -- Templates --
+## -- Templates --
 
 Templates determine which items can receive catalysts.
 
@@ -165,7 +208,7 @@ Crafted with an empty catalyst and an echo shard
 Armor Template: Used for armor
 Crafted with an empty catalyst and an iron chestplate
 
-# -- Enchantments --
+## -- Enchantments --
 
 Bloody Vengeance (Scythe) : Fires a piercing red slicing projectile that hits up to four targets while borrowing life force from the user. Goes up to level II.
 
@@ -174,29 +217,3 @@ Hidden Blade (Arm Blade) : Attacks from behind or while sneaking deal increased 
 Reach (Grappling Hook) : Increases hook range and speed by 0.5 blocks and 0.1b/s per level respectively. Goes up to level II.
 
 Water Shock (Trident) : Creates a small shockwave with a 3–4 block radius. Damage increases with level. Goes up to level V.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
