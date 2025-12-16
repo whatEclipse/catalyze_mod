@@ -122,7 +122,7 @@ Ropes determine the performance of the grappling hook.
 ### Other Items
 
   - **Beast Tendon**:
-    - Dropped by ravagers and used in advanced weapon crafting.
+    - Dropped by common mobs and used it is used mostly for weapon crafting.
 
   - **Bone Shards**:
     - Obtained by breaking bones against stone or through crafting recipes. Used primarily for bone-based gear.
@@ -137,11 +137,9 @@ Ropes determine the performance of the grappling hook.
 
 ## Catalyst System 
 
-**Catalysts** are a new upgrade system for weapons, tools, and armor.
-Applied using one of the 3 **new** smithing templates in a smithing table
-Each catalyst provides either a special ability or a stat bonus.
+**Catalysts** are a new upgrade system for weapons, tools, and armor. Applied using one of the 3 **new** smithing templates in a smithing table. Each catalyst provides either a special ability or a stat bonus.
 
-## -- Catalysts --
+## Catalysts Types 
 
 ### -Weapon Catalysts- 
 **Serrated**: Applies a bleeding effect to bladed weapons (sword, axe) 
@@ -182,23 +180,23 @@ Each catalyst provides either a special ability or a stat bonus.
 
 **Heavy Weight**: Landing after a 30+ block fall creates a shockwave (boots only)
 
-## -- Templates --
+## Templates
 
 **Templates** determine which items can receive catalysts.
 
-**Combat Template**: Used for weapons
-Crafted with an empty catalyst and an iron sword
+- **Combat Template**: Used for weapons
+ - Crafted with an empty catalyst and an iron sword
 
-**Utility Template**: Used for tools
-Crafted with an empty catalyst and an iron pickaxe
+- **Utility Template**: Used for tools
+ - Crafted with an empty catalyst and an iron pickaxe
 
-**Specialty Template**: Used for special catalysts
-Crafted with an empty catalyst and an echo shard
+- **Specialty Template**: Used for special catalysts
+ - Crafted with an empty catalyst and an echo shard
 
-**Armor Template**: Used for armor
-Crafted with an empty catalyst and an iron chestplate
+- **Armor Template**: Used for armor
+ - Crafted with an empty catalyst and an iron chestplate
 
-## -- Enchantments --
+## Enchantments 
 
 **Crescent Blood Moon** (Scythe) : Fires a piercing red slicing projectile that hits up to four targets while borrowing life force from the user. Goes up to level II.
 
