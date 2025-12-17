@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "NNS",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "catalyze_mod:netherite_scythe"
+  }
+}
