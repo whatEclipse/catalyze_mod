@@ -1,5 +1,4 @@
 {
-  "itemGroup.catalyze_mod": "Example Mod Tab",
-  "block.catalyze_mod.example_block": "Example Block",
-  "item.catalyze_mod.example_item": "Example Item"
+  "item.catalyze_mod.netherite_scythe": "Netherite Scythe",
+  "creativetab.catalyze_mod.catalyze_tab": "Catalyze Mod Items"
 }

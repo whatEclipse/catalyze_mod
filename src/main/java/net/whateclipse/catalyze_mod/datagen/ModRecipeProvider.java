@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.whateclipse.catalyze_mod.items.ModItems;
+import net.whateclipse.catalyze_mod.items.weapons.NetheriteScythe;
 
 import java.util.concurrent.CompletableFuture;
 

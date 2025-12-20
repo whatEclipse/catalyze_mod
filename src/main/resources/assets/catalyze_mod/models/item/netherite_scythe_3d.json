@@ -1,0 +1,39 @@
+{
+ 	"parent": "minecraft:item/generated",
+ 	"textures": {
+ 		"layer0": "catalyze_mod:item/scythe_48",
+ 		"particle": "catalyze_mod:item/scythe_48"
+ 	},
+ 	"display": {
+ 		"thirdperson_righthand": {
+ 			"rotation": [0, -90, -16],
+ 			"translation": [0, 7, 9],
+ 			"scale": [3, 3, 1]
+ 		},
+ 		"thirdperson_lefthand": {
+ 			"rotation": [0, 90, 16],
+ 			"translation": [0, 7, 9],
+ 			"scale": [3, 3, 1]
+ 		},
+ 		"firstperson_righthand": {
+ 			"rotation": [0, -90, 0],
+ 			"translation": [3, 3.25, 0.25],
+ 			"scale": [2, 2, 0.67]
+ 		},
+ 		"firstperson_lefthand": {
+ 			"rotation": [0, 90, 0],
+ 			"translation": [3, 3.25, 0.25],
+ 			"scale": [2, 2, 0.67]
+ 		},
+ 		"ground": {
+ 			"rotation": [90, 0, 0],
+ 			"translation": [0, -1.25, 0],
+ 			"scale": [1, 1, 0.34]
+ 		},
+ 		"head": {
+ 			"rotation": [-98, -90, 0],
+ 			"translation": [0, 12, -19],
+ 			"scale": [3, 3, 1]
+ 		}
+ 	}
+}

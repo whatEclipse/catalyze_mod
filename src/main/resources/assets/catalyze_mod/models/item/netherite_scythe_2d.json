@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "catalyze_mod:item/scythe_16",
+    "particle": "catalyze_mod:/scythe_16"
+  }
+}
