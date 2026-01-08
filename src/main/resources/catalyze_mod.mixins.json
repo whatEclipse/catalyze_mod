@@ -1,16 +1,10 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "net.whateclipse.catalyze_mod.mixin",
+  "minVersion": "0.8.5",
+  "package": "net.whateclipse.catalyze_mod.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
-  }
+  "client": [],
+  "server": []
 }

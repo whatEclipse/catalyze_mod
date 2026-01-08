@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "catalyze_mod:item/throat_slit_catalyst"
+  }
+}
