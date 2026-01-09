@@ -9,8 +9,6 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.whateclipse.catalyze_mod.items.ModItems;
-import net.whateclipse.catalyze_mod.items.weapons.NetheriteScythe;
-
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
@@ -20,7 +18,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     @Override
-    protected void buildRecipes(RecipeOutput recipeOutput){
+    protected void buildRecipes(RecipeOutput recipeOutput) {
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NETHERITE_SCYTHE.get())
                 .pattern("NNS")
