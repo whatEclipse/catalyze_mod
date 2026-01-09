@@ -19,6 +19,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.whateclipse.catalyze_mod.creativetabs.ModCreativeTabs;
 import net.whateclipse.catalyze_mod.items.ModItems;
+import net.whateclipse.catalyze_mod.recipes.ModRecipes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -29,25 +30,30 @@ public class Catalyze_mod {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-
-    // The constructor for the mod class is the first code that is run when your mod is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
+    // The constructor for the mod class is the first code that is run when your mod
+    // is loaded.
+    // FML will recognize some parameter types like IEventBus or ModContainer and
+    // pass them in automatically.
     public Catalyze_mod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in.
-        // Note that this is necessary if and only if we want *this* class (Catalyze_mod) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
+        // Note that this is necessary if and only if we want *this* class
+        // (Catalyze_mod) to respond directly to events.
+        // Do not add this line if there are no @SubscribeEvent-annotated functions in
+        // this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
+        // Register our mod's ModConfigSpec so that FML can create and load the config
+        // file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
@@ -75,7 +81,8 @@ public class Catalyze_mod {
         LOGGER.info("HELLO from server starting");
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
+    // You can use EventBusSubscriber to automatically register all static methods
+    // in the class annotated with @SubscribeEvent
     @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
@@ -86,4 +93,3 @@ public class Catalyze_mod {
         }
     }
 }
-

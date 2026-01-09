@@ -22,5 +22,6 @@
   "item.catalyze_mod.special_template": "Special Template",
   "item.catalyze_mod.armor_template": "Armor Template",
   "item.catalyze_mod.tool_template": "Tool Template",
-  "creativetab.catalyze_mod.catalyze_tab": "Catalyze Mod Items"
+  "creativetab.catalyze_mod.catalyze_tab": "Catalyze Mod Items",
+  "tooltip.catalyze_mod.blazing": "Blazing"
 }

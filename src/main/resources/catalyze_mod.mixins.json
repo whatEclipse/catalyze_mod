@@ -4,6 +4,7 @@
   "package": "net.whateclipse.catalyze_mod.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "SwordItemMixin"
   ],
   "client": [],
   "server": []
