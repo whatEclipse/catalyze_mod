@@ -9,12 +9,16 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.whateclipse.catalyze_mod.Catalyze_mod;
 import net.whateclipse.catalyze_mod.items.weapons.NetheriteScytheItem;
+import net.whateclipse.catalyze_mod.items.weapons.BlazingSwordItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Catalyze_mod.MODID);
 
     public static final DeferredItem<NetheriteScytheItem> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
             NetheriteScytheItem::new);
+
+    public static final DeferredItem<BlazingSwordItem> BLAZING_SWORD = ITEMS.register("blazing_sword",
+            BlazingSwordItem::new);
 
     // Weapon Catalysts
     public static final DeferredItem<Item> SERRATED_CATALYST = ITEMS.register("serrated_catalyst",

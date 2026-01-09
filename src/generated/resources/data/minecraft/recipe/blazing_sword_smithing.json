@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "catalyze_mod:blazing_catalyst"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "catalyze_mod:blazing_sword"
+  },
+  "template": {
+    "item": "catalyze_mod:combat_template"
+  }
+}

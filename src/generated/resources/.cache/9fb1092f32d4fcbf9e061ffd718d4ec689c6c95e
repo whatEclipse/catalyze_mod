@@ -1,5 +1,5 @@
-// 1.21.1	2026-01-08T16:15:22.797230909	Recipes
+// 1.21.1	2026-01-09T13:00:58.157745946	Recipes
 5c2f8e222e73d611372896a51ec1fb8c2eae5adb data/catalyze_mod/advancement/recipes/combat/netherite_scythe.json
 2945797ef7d825289fe9bd4b92252ea13448e579 data/catalyze_mod/recipe/netherite_scythe.json
-e302e0af1aef70b097a396c47a8778dd796b6513 data/minecraft/advancement/recipes/combat/netherite_scythe_smithing.json
-df37561a86c88c3b51e2d7a03601795c9b7c2616 data/minecraft/recipe/netherite_scythe_smithing.json
+2584da42c6322b6f074f4237aa7767209d9ec4da data/minecraft/advancement/recipes/combat/blazing_sword_smithing.json
+80a87227676498a248c04dc2ff5b48fafd7d09a7 data/minecraft/recipe/blazing_sword_smithing.json
