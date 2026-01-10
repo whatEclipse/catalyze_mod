@@ -137,7 +137,7 @@ Ropes determine the performance of the grappling hook.
 
 ## Catalyst System 
 
-**Catalysts** are a new upgrade system for weapons, tools, and armor. Applied using one of the 3 **new** smithing templates in a smithing table. Each catalyst provides either a special ability or a stat bonus.
+**Catalysts** are a new upgrade system for weapons, tools, and armor. Applied using one of the 4 **new** smithing templates in a smithing table. Each catalyst provides either a special ability or a stat bonus.
 
 ## Catalysts Types 
 
