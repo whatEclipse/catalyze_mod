@@ -30,11 +30,37 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 .define('N', Items.NETHERITE_INGOT)
                                 .unlockedBy("has_stick", has(Items.NETHERITE_INGOT)).save(recipeOutput);
 
-                catalystSmithing(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), Items.NETHERITE_SWORD,
-                                ModItems.BLAZING_CATALYST.get(), Items.NETHERITE_SWORD, "flaming_netherite_sword");
-                catalystSmithing(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.NETHERITE_SCYTHE.get(),
-                                ModItems.BLAZING_CATALYST.get(), ModItems.NETHERITE_SCYTHE.get(),
-                                "flaming_netherite_scythe");
+                // Blazing Catalyst Recipes
+                net.minecraft.world.item.Item catalyst = ModItems.BLAZING_CATALYST.get();
+                net.minecraft.world.item.Item template = ModItems.COMBAT_TEMPLATE.get();
+
+                // Swords
+                net.minecraft.world.item.Item[] swords = {
+                                Items.WOODEN_SWORD, Items.STONE_SWORD, Items.IRON_SWORD,
+                                Items.GOLDEN_SWORD, Items.DIAMOND_SWORD, Items.NETHERITE_SWORD
+                };
+                for (net.minecraft.world.item.Item weapon : swords) {
+                        catalystSmithing(recipeOutput, template, weapon, catalyst, weapon,
+                                        "blazing_" + net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(weapon)
+                                                        .getPath());
+                }
+
+                // Axes
+                net.minecraft.world.item.Item[] axes = {
+                                Items.WOODEN_AXE, Items.STONE_AXE, Items.IRON_AXE,
+                                Items.GOLDEN_AXE, Items.DIAMOND_AXE, Items.NETHERITE_AXE
+                };
+                for (net.minecraft.world.item.Item weapon : axes) {
+                        catalystSmithing(recipeOutput, template, weapon, catalyst, weapon,
+                                        "blazing_" + net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(weapon)
+                                                        .getPath());
+                }
+
+                // Others
+                catalystSmithing(recipeOutput, template, ModItems.NETHERITE_SCYTHE.get(), catalyst,
+                                ModItems.NETHERITE_SCYTHE.get(), "blazing_netherite_scythe");
+                catalystSmithing(recipeOutput, template, Items.TRIDENT, catalyst, Items.TRIDENT, "blazing_trident");
+                catalystSmithing(recipeOutput, template, Items.MACE, catalyst, Items.MACE, "blazing_mace");
         }
 
         private void catalystSmithing(RecipeOutput recipeOutput, net.minecraft.world.item.Item template,

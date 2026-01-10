@@ -2,5 +2,6 @@
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.server.launchMode": "Standard",
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.autobuild.enabled": true
+    "java.autobuild.enabled": true,
+    "java.debug.settings.onBuildFailureProceed": true
 }
