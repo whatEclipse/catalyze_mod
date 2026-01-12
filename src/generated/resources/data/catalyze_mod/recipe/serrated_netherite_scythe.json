@@ -1,0 +1,16 @@
+{
+  "type": "catalyze_mod:catalyst_smithing",
+  "addition": {
+    "item": "catalyze_mod:serrated_catalyst"
+  },
+  "base": {
+    "item": "catalyze_mod:netherite_scythe"
+  },
+  "result": {
+    "count": 1,
+    "id": "catalyze_mod:netherite_scythe"
+  },
+  "template": {
+    "item": "catalyze_mod:combat_template"
+  }
+}

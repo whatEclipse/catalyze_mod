@@ -1,0 +1,16 @@
+{
+  "type": "catalyze_mod:catalyst_smithing",
+  "addition": {
+    "item": "catalyze_mod:serrated_catalyst"
+  },
+  "base": {
+    "item": "minecraft:trident"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:trident"
+  },
+  "template": {
+    "item": "catalyze_mod:combat_template"
+  }
+}

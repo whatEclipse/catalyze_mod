@@ -30,6 +30,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 .define('N', Items.NETHERITE_INGOT)
                                 .unlockedBy("has_stick", has(Items.NETHERITE_INGOT)).save(recipeOutput);
 
+                ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SERRATED_CATALYST.get())
+                                .pattern("F F")
+                                .pattern(" S ")
+                                .pattern("F F")
+                                .define('F', Items.FLINT)
+                                .define('S', Items.SPIDER_EYE)
+                                .unlockedBy("has_flint", has(Items.FLINT))
+                                .unlockedBy("has_spider_eye", has(Items.SPIDER_EYE))
+                                .save(recipeOutput);
+
                 addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.BLAZING_CATALYST.get(),
                                 "blazing");
                 addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.FREEZING_CATALYST.get(),
@@ -38,6 +48,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 "blinding");
                 addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.VENOMOUS_CATALYST.get(),
                                 "venomous");
+                addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.SERRATED_CATALYST.get(),
+                                "serrated");
         }
 
         private void addCatalystRecipes(RecipeOutput recipeOutput, net.minecraft.world.item.Item template,
@@ -54,7 +66,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                         .getPath());
                 }
 
-                // Axes
                 net.minecraft.world.item.Item[] axes = {
                                 Items.WOODEN_AXE, Items.STONE_AXE, Items.IRON_AXE,
                                 Items.GOLDEN_AXE, Items.DIAMOND_AXE, Items.NETHERITE_AXE
@@ -66,7 +77,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                         .getPath());
                 }
 
-                // Others
                 catalystSmithing(recipeOutput, template, ModItems.NETHERITE_SCYTHE.get(), catalyst,
                                 ModItems.NETHERITE_SCYTHE.get(), prefix + "_netherite_scythe");
                 catalystSmithing(recipeOutput, template, Items.TRIDENT, catalyst, Items.TRIDENT, prefix + "_trident");

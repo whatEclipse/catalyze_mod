@@ -18,7 +18,9 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.whateclipse.catalyze_mod.creativetabs.ModCreativeTabs;
+import net.whateclipse.catalyze_mod.effects.ModEffects;
 import net.whateclipse.catalyze_mod.items.ModItems;
+import net.whateclipse.catalyze_mod.particles.ModParticleTypes;
 import net.whateclipse.catalyze_mod.recipes.ModRecipes;
 import org.slf4j.Logger;
 
@@ -48,6 +50,8 @@ public class Catalyze_mod {
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModEffects.register(modEventBus);
+        ModParticleTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

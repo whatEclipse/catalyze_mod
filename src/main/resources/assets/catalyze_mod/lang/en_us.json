@@ -23,8 +23,11 @@
   "item.catalyze_mod.armor_template": "Armor Template",
   "item.catalyze_mod.tool_template": "Tool Template",
   "creativetab.catalyze_mod.catalyze_tab": "Catalyze Mod Items",
-  "tooltip.catalyze_mod.blazing": "\" ... With the infusion\n of the fiery rods of the nether's inferno,\n set your weapon ablaze.\"",
-  "tooltip.catalyze_mod.freezing": "\" ... With the infusion\n of the icy blue of the frozen ice peaks,\n englobe your enemies in a frozen cube.\"",
-  "tooltip.catalyze_mod.venomous": "\" ... With the infusion\n of the poisonous eyes of a spider of the deep caves,\n sicken your foes.\"",
-  "tooltip.catalyze_mod.blinding": "\"... With the infusion\n of the shards of the abyss of the world,\n carve the eyes of anyone.\""
+  "effect.catalyze_mod.bleeding": "Bleeding",
+  "tooltip.catalyze_mod.blazing": "\"With the infusion of the fiery rods\n of the nether's inferno,\n set your weapon ablaze...\"",
+  "tooltip.catalyze_mod.freezing": "\"With the infusion of the icy blue\n of the frozen ice peaks,\n englobe your enemies in a frozen cube...\"",
+  "tooltip.catalyze_mod.venomous": "\"With the infusion of the poisonous\n eyes of a spider of the deep caves,\n sicken your foes...\"",
+  "tooltip.catalyze_mod.blinding": "\"With the infusion of the shards\n of the abyss of the world,\n carve the eyes of anyone...\"",
+  "tooltip.catalyze_mod.serrated": "\"With the infusion of the sharpest\n teeth of the monsters of the world,\n leave deep wounds in your enemies...\"",
+  "tooltip.catalyze_mod.hold_shift": "Hold [SHIFT] for weapon info"
 }

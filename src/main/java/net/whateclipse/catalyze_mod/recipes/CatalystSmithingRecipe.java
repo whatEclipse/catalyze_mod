@@ -64,6 +64,8 @@ public class CatalystSmithingRecipe extends SmithingTransformRecipe {
                 tagKey = "blinding";
             else if (addition.is(ModItems.VENOMOUS_CATALYST.get()))
                 tagKey = "venomous";
+            else if (addition.is(ModItems.SERRATED_CATALYST.get()))
+                tagKey = "serrated";
 
             if (tagKey != null) {
                 ItemStack resultStack = base.copy();

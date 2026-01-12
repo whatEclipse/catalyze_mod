@@ -7,7 +7,9 @@
     "SwordItemMixin",
     "DiggerItemMixin",
     "MaceItemMixin",
-    "TridentItemMixin"
+    "TridentItemMixin",
+    "MobEffectInstanceMixin",
+    "LivingEntityMixin"
   ],
   "client": [],
   "server": []

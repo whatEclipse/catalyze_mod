@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "pattern": [
+    "F F",
+    " S ",
+    "F F"
+  ],
+  "result": {
+    "count": 1,
+    "id": "catalyze_mod:serrated_catalyst"
+  }
+}
