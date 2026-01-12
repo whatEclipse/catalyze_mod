@@ -6,7 +6,6 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.whateclipse.catalyze_mod.Catalyze_mod;
 import net.whateclipse.catalyze_mod.items.ModItems;
-import net.whateclipse.catalyze_mod.items.weapons.NetheriteScythe;
 
 public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(net.minecraft.core.registries.Registries.CREATIVE_MODE_TAB, Catalyze_mod.MODID);

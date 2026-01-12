@@ -1,0 +1,16 @@
+{
+  "type": "catalyze_mod:catalyst_smithing",
+  "addition": {
+    "item": "catalyze_mod:freezing_catalyst"
+  },
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_sword"
+  },
+  "template": {
+    "item": "catalyze_mod:combat_template"
+  }
+}

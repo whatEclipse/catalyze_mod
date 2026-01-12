@@ -1,0 +1,16 @@
+{
+  "type": "catalyze_mod:catalyst_smithing",
+  "addition": {
+    "item": "catalyze_mod:venomous_catalyst"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_axe"
+  },
+  "template": {
+    "item": "catalyze_mod:combat_template"
+  }
+}

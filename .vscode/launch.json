@@ -12,13 +12,13 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/clientRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%/home/whateclipse/CatalyzeRepo/catalyze_mod/bin/main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
-      "cwd": "${workspaceFolder}/run",
+      "cwd": "${workspaceFolder}\\run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -34,13 +34,13 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/dataRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%/home/whateclipse/CatalyzeRepo/catalyze_mod/bin/main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
-      "cwd": "${workspaceFolder}/run",
+      "cwd": "${workspaceFolder}\\run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -56,13 +56,13 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/gameTestServerRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%/home/whateclipse/CatalyzeRepo/catalyze_mod/bin/main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
-      "cwd": "${workspaceFolder}/run",
+      "cwd": "${workspaceFolder}\\run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -78,13 +78,13 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/serverRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/whateclipse/CatalyzeRepo/catalyze_mod/build/moddev/serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%/home/whateclipse/CatalyzeRepo/catalyze_mod/bin/main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
-      "cwd": "${workspaceFolder}/run",
+      "cwd": "${workspaceFolder}\\run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"

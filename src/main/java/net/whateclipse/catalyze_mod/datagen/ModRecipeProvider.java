@@ -30,10 +30,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 .define('N', Items.NETHERITE_INGOT)
                                 .unlockedBy("has_stick", has(Items.NETHERITE_INGOT)).save(recipeOutput);
 
-                // Blazing Catalyst Recipes
-                net.minecraft.world.item.Item catalyst = ModItems.BLAZING_CATALYST.get();
-                net.minecraft.world.item.Item template = ModItems.COMBAT_TEMPLATE.get();
+                addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.BLAZING_CATALYST.get(),
+                                "blazing");
+                addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.FREEZING_CATALYST.get(),
+                                "freezing");
+                addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.BLINDING_CATALYST.get(),
+                                "blinding");
+                addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.VENOMOUS_CATALYST.get(),
+                                "venomous");
+        }
 
+        private void addCatalystRecipes(RecipeOutput recipeOutput, net.minecraft.world.item.Item template,
+                        net.minecraft.world.item.Item catalyst, String prefix) {
                 // Swords
                 net.minecraft.world.item.Item[] swords = {
                                 Items.WOODEN_SWORD, Items.STONE_SWORD, Items.IRON_SWORD,
@@ -41,7 +49,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 };
                 for (net.minecraft.world.item.Item weapon : swords) {
                         catalystSmithing(recipeOutput, template, weapon, catalyst, weapon,
-                                        "blazing_" + net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(weapon)
+                                        prefix + "_" + net.minecraft.core.registries.BuiltInRegistries.ITEM
+                                                        .getKey(weapon)
                                                         .getPath());
                 }
 
@@ -52,15 +61,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 };
                 for (net.minecraft.world.item.Item weapon : axes) {
                         catalystSmithing(recipeOutput, template, weapon, catalyst, weapon,
-                                        "blazing_" + net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(weapon)
+                                        prefix + "_" + net.minecraft.core.registries.BuiltInRegistries.ITEM
+                                                        .getKey(weapon)
                                                         .getPath());
                 }
 
                 // Others
                 catalystSmithing(recipeOutput, template, ModItems.NETHERITE_SCYTHE.get(), catalyst,
-                                ModItems.NETHERITE_SCYTHE.get(), "blazing_netherite_scythe");
-                catalystSmithing(recipeOutput, template, Items.TRIDENT, catalyst, Items.TRIDENT, "blazing_trident");
-                catalystSmithing(recipeOutput, template, Items.MACE, catalyst, Items.MACE, "blazing_mace");
+                                ModItems.NETHERITE_SCYTHE.get(), prefix + "_netherite_scythe");
+                catalystSmithing(recipeOutput, template, Items.TRIDENT, catalyst, Items.TRIDENT, prefix + "_trident");
+                catalystSmithing(recipeOutput, template, Items.MACE, catalyst, Items.MACE, prefix + "_mace");
         }
 
         private void catalystSmithing(RecipeOutput recipeOutput, net.minecraft.world.item.Item template,

@@ -23,9 +23,15 @@ public class ModClientEvents {
                 net.minecraft.nbt.CompoundTag modTag = customData.copyTag().getCompound("catalyze_mod");
                 for (String key : modTag.getAllKeys()) {
                     if (modTag.getBoolean(key)) {
+                        ChatFormatting color = switch (key) {
+                            case "freezing" -> ChatFormatting.AQUA;
+                            case "venomous" -> ChatFormatting.GREEN;
+                            case "blinding" -> ChatFormatting.DARK_PURPLE;
+                            default -> ChatFormatting.RED;
+                        };
                         event.getToolTip()
                                 .add(Component.translatable("tooltip.catalyze_mod." + key)
-                                        .withStyle(ChatFormatting.RED));
+                                        .withStyle(color));
                     }
                 }
             }

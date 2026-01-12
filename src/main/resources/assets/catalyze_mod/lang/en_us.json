@@ -23,5 +23,8 @@
   "item.catalyze_mod.armor_template": "Armor Template",
   "item.catalyze_mod.tool_template": "Tool Template",
   "creativetab.catalyze_mod.catalyze_tab": "Catalyze Mod Items",
-  "tooltip.catalyze_mod.blazing": "Blazing"
+  "tooltip.catalyze_mod.blazing": "\" ... With the infusion\n of the fiery rods of the nether's inferno,\n set your weapon ablaze.\"",
+  "tooltip.catalyze_mod.freezing": "\" ... With the infusion\n of the icy blue of the frozen ice peaks,\n englobe your enemies in a frozen cube.\"",
+  "tooltip.catalyze_mod.venomous": "\" ... With the infusion\n of the poisonous eyes of a spider of the deep caves,\n sicken your foes.\"",
+  "tooltip.catalyze_mod.blinding": "\"... With the infusion\n of the shards of the abyss of the world,\n carve the eyes of anyone.\""
 }

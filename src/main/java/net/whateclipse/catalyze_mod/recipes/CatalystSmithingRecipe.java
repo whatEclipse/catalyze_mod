@@ -55,20 +55,32 @@ public class CatalystSmithingRecipe extends SmithingTransformRecipe {
 
         // Check if logic matches
         if (this.isTemplateIngredient(template) && this.isBaseIngredient(base) && this.isAdditionIngredient(addition)) {
-            // Logic for Blazing Catalyst
-            if (addition.is(ModItems.BLAZING_CATALYST.get())) {
+            String tagKey = null;
+            if (addition.is(ModItems.BLAZING_CATALYST.get()))
+                tagKey = "blazing";
+            else if (addition.is(ModItems.FREEZING_CATALYST.get()))
+                tagKey = "freezing";
+            else if (addition.is(ModItems.BLINDING_CATALYST.get()))
+                tagKey = "blinding";
+            else if (addition.is(ModItems.VENOMOUS_CATALYST.get()))
+                tagKey = "venomous";
+
+            if (tagKey != null) {
                 ItemStack resultStack = base.copy();
 
                 // Add the custom data
                 CompoundTag modTag = new CompoundTag();
-                modTag.putBoolean("blazing", true);
+                modTag.putBoolean(tagKey, true);
 
                 CompoundTag rootTag = new CompoundTag();
                 rootTag.put("catalyze_mod", modTag);
 
-                // Merge with existing custom data if any, or set new
+                // Overwrite existing catalyst data by removing it first
                 CustomData existing = resultStack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY);
-                resultStack.set(DataComponents.CUSTOM_DATA, existing.update(tag -> tag.merge(rootTag)));
+                resultStack.set(DataComponents.CUSTOM_DATA, existing.update(tag -> {
+                    tag.remove("catalyze_mod");
+                    tag.merge(rootTag);
+                }));
 
                 return resultStack;
             }
