@@ -144,13 +144,13 @@ Ropes determine the performance of the grappling hook.
 ### -Weapon Catalysts- 
 **Serrated**: Applies a bleeding effect to bladed weapons (sword, axe) 
 
-**Blazing**: Applies fire damage 
+**Blazing**: Applies fire damage *(implemented)*
 
-**Freezing**: Applies freezing effects
+**Freezing**: Applies freezing effects *(implemented)*
 
-**Venomous**: Applies poison
+**Venomous**: Applies poison *(implemented)*
 
-**Blinding**: Applies darkness
+**Blinding**: Applies darkness *(implemented)*
 
 ### -Tool Catalysts-
 
