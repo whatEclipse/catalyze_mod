@@ -142,7 +142,7 @@ Ropes determine the performance of the grappling hook.
 ## Catalysts Types 
 
 ### -Weapon Catalysts- 
-**Serrated**: Applies a bleeding effect to bladed weapons (sword, axe) 
+**Serrated**: Applies a bleeding effect to bladed weapons (sword, axe) *(implemented)*
 
 **Blazing**: Applies fire damage *(implemented)*
 
