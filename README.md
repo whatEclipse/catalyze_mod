@@ -1,3 +1,6 @@
+
+# [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C21S5QNB)
+
 # Catalyze 
 Catalyze is a Minecraft mod centered around a new upgrade system called Catalyzation, you use new items called Catalysts to imbue weapons, tools and armor with new abilities and stat increments, the mod adds:
 3 new weapons, 4 new enchantments, 8 new items, 3 new smithing templates and 17 catalysts.
