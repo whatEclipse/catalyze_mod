@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "catalyze_mod:item/grasping_catalyst"
+    "layer0": "catalyze_mod:item/dormant_catalyst"
   }
 }

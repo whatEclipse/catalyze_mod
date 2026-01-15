@@ -1,7 +1,7 @@
 {
   "type": "catalyze_mod:catalyst_smithing",
   "addition": {
-    "item": "catalyze_mod:serrated_catalyst"
+    "item": "catalyze_mod:piercing_catalyst"
   },
   "base": {
     "item": "minecraft:trident"
@@ -11,6 +11,6 @@
     "id": "minecraft:trident"
   },
   "template": {
-    "item": "catalyze_mod:combat_template"
+    "item": "catalyze_mod:special_template"
   }
 }

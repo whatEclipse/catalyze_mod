@@ -1,0 +1,16 @@
+{
+  "type": "catalyze_mod:catalyst_smithing",
+  "addition": {
+    "item": "catalyze_mod:haste_catalyst"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_hoe"
+  },
+  "template": {
+    "item": "catalyze_mod:tool_template"
+  }
+}

@@ -9,7 +9,9 @@
     "MaceItemMixin",
     "TridentItemMixin",
     "MobEffectInstanceMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "ThrownTridentMixin",
+    "AbstractArrowAccessor"
   ],
   "client": [],
   "server": []

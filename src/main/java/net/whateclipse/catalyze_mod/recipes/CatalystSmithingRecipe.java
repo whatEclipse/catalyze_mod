@@ -66,6 +66,12 @@ public class CatalystSmithingRecipe extends SmithingTransformRecipe {
                 tagKey = "venomous";
             else if (addition.is(ModItems.SERRATED_CATALYST.get()))
                 tagKey = "serrated";
+            else if (addition.is(ModItems.BLOOD_REAPER_CATALYST.get()))
+                tagKey = "blood_reaper";
+            else if (addition.is(ModItems.PIERCING_CATALYST.get()))
+                tagKey = "piercing";
+            else if (addition.is(ModItems.HASTE_CATALYST.get()))
+                tagKey = "haste";
 
             if (tagKey != null) {
                 ItemStack resultStack = base.copy();

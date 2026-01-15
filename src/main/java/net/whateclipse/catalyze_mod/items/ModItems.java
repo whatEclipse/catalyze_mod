@@ -41,7 +41,7 @@ public class ModItems {
                         () -> new Item(new Item.Properties()));
         public static final DeferredItem<Item> SHATTERING_CATALYST = ITEMS.register("shattering_catalyst",
                         () -> new Item(new Item.Properties()));
-        public static final DeferredItem<Item> GRASPING_CATALYST = ITEMS.register("grasping_catalyst",
+        public static final DeferredItem<Item> BLOOD_REAPER_CATALYST = ITEMS.register("blood_reaper_catalyst",
                         () -> new Item(new Item.Properties()));
 
         // Armor Catalysts
@@ -56,7 +56,7 @@ public class ModItems {
         public static final DeferredItem<Item> HEAVY_WEIGHT_CATALYST = ITEMS.register("heavy_weight_catalyst",
                         () -> new Item(new Item.Properties()));
 
-        public static final DeferredItem<Item> EMPTY_CATALYST = ITEMS.register("empty_catalyst",
+        public static final DeferredItem<Item> DORMANT_CATALYST = ITEMS.register("dormant_catalyst",
                         () -> new Item(new Item.Properties()));
 
         public static final DeferredItem<Item> COMBAT_TEMPLATE = ITEMS.register("combat_template",

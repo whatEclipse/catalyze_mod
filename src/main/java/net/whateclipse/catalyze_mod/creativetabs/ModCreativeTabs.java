@@ -28,13 +28,13 @@ public class ModCreativeTabs {
                         output.accept(ModItems.TETHER_CATALYST.get());
                         output.accept(ModItems.PIERCING_CATALYST.get());
                         output.accept(ModItems.SHATTERING_CATALYST.get());
-                        output.accept(ModItems.GRASPING_CATALYST.get());
+                        output.accept(ModItems.BLOOD_REAPER_CATALYST.get());
                         output.accept(ModItems.RESILIENCE_CATALYST.get());
                         output.accept(ModItems.PERCEPTION_CATALYST.get());
                         output.accept(ModItems.TITAN_SKIN_CATALYST.get());
                         output.accept(ModItems.AGILITY_CATALYST.get());
                         output.accept(ModItems.HEAVY_WEIGHT_CATALYST.get());
-                        output.accept(ModItems.EMPTY_CATALYST.get());
+                        output.accept(ModItems.DORMANT_CATALYST.get());
                         output.accept(ModItems.COMBAT_TEMPLATE.get());
                         output.accept(ModItems.SPECIAL_TEMPLATE.get());
                         output.accept(ModItems.ARMOR_TEMPLATE.get());

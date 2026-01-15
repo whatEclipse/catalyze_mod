@@ -43,6 +43,10 @@ public class ModClientEvents {
                                 case "venomous" -> new int[] { 0x5B7F2A, 0x6FAE2E, 0x8BCF3F };
                                 case "blinding" -> new int[] { 0x1B6F7A, 0x0B3442, 0x071B24 };
                                 case "serrated" -> new int[] { 0x747474, 0xA30000, 0x470000 };
+                                case "piercing" -> new int[] { 0x00CED1, 0x40E0D0, 0xAFEEEE };
+                                case "haste" -> new int[] { 0xFFD700, 0xFFE135, 0xFFF700 };
+                                case "blood_reaper" -> new int[] { 0x8A0303, 0x470000, 0x2E0000 };
+
                                 default -> null;
                             };
 

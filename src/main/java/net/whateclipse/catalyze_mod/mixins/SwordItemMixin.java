@@ -69,6 +69,11 @@ public class SwordItemMixin {
                         }
                     }
                 }
+                if (modTag.getBoolean("blood_reaper")) {
+                    net.minecraft.world.phys.Vec3 direction = attacker.position().subtract(target.position())
+                            .normalize();
+                    target.setDeltaMovement(direction.scale(0.5));
+                }
             }
         }
     }
