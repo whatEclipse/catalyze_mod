@@ -37,7 +37,7 @@ public class ModCommonEvents {
                             serverLevel.sendParticles(ModParticleTypes.BLOOD_PARTICLE.get(),
                                     x, y, z,
                                     0, // count = 0 means dx,dy,dz are velocity
-                                    0.0D, -0.05D, 0.0D, // Velocity: x, y (down), z
+                                    0.0D, -0.05D, 0.0D, // Velocity: x, y, z
                                     1.0D // speed multiplier
                             );
                         }

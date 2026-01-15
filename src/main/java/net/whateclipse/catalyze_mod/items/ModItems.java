@@ -56,15 +56,25 @@ public class ModItems {
         public static final DeferredItem<Item> HEAVY_WEIGHT_CATALYST = ITEMS.register("heavy_weight_catalyst",
                         () -> new Item(new Item.Properties()));
 
+        // Base Catalyst (use as base item for template)
         public static final DeferredItem<Item> DORMANT_CATALYST = ITEMS.register("dormant_catalyst",
                         () -> new Item(new Item.Properties()));
 
+        // Templates (use for specified catalysts)
+
+        // Weapon Templates (used for every weapon)
         public static final DeferredItem<Item> COMBAT_TEMPLATE = ITEMS.register("combat_template",
                         () -> new Item(new Item.Properties()));
+
+        // Special Weapon Templates (used for every special weapon)
         public static final DeferredItem<Item> SPECIAL_TEMPLATE = ITEMS.register("special_template",
                         () -> new Item(new Item.Properties()));
+
+        // Armor Templates (used for every armor)
         public static final DeferredItem<Item> ARMOR_TEMPLATE = ITEMS.register("armor_template",
                         () -> new Item(new Item.Properties()));
+
+        // Tool Templates (used for every tool)
         public static final DeferredItem<Item> TOOL_TEMPLATE = ITEMS.register("tool_template",
                         () -> new Item(new Item.Properties()));
 

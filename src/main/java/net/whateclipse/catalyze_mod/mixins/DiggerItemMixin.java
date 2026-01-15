@@ -40,6 +40,8 @@ public class DiggerItemMixin {
                         target.addEffect(new MobEffectInstance(ModEffects.BLEEDING, 100, 0, false, false, true));
                     }
                 }
+
+                // Equation to calculate the chance of applying the effect
                 if (modTag.getBoolean("serrated")) {
                     if (!net.whateclipse.catalyze_mod.util.ModTags.EntityTypes.isImmuneToBleeding(target)) {
                         int armorPieces = 0;

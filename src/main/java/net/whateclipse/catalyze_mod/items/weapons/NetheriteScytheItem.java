@@ -8,6 +8,7 @@ public class NetheriteScytheItem extends SwordItem {
     public NetheriteScytheItem() {
         super(Tiers.NETHERITE, new Item.Properties()
                 .attributes(createAttributes(Tiers.NETHERITE, 5.5F, -2.7F)));
+
     }
 
 }

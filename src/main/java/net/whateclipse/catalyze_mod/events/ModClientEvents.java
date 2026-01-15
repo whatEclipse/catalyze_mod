@@ -38,6 +38,9 @@ public class ModClientEvents {
                     for (String key : modTag.getAllKeys()) {
                         if (modTag.getBoolean(key)) {
                             int[] gradientColors = switch (key) {
+
+                                // Catalyst gradient color array
+
                                 case "blazing" -> new int[] { 0xF5B027, 0xF54927, 0xE6B553 };
                                 case "freezing" -> new int[] { 0xDFF6FF, 0xC6E7FF, 0xA7DADC };
                                 case "venomous" -> new int[] { 0x5B7F2A, 0x6FAE2E, 0x8BCF3F };
@@ -80,6 +83,8 @@ public class ModClientEvents {
         }
     }
 
+    // Blood particle summoner class
+
     public static class BloodParticle extends TextureSheetParticle {
         protected BloodParticle(ClientLevel level, double x, double y, double z, SpriteSet sprites, double xSpeed,
                 double ySpeed, double zSpeed) {
@@ -98,6 +103,8 @@ public class ModClientEvents {
         public net.minecraft.client.particle.ParticleRenderType getRenderType() {
             return net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_OPAQUE;
         }
+
+        // Blood particle provider class
 
         public static class Provider implements ParticleProvider<net.minecraft.core.particles.SimpleParticleType> {
             private final SpriteSet sprites;

@@ -22,6 +22,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         @Override
         protected void buildRecipes(RecipeOutput recipeOutput) {
 
+                // Netherite Scythe recipe builder
+
                 ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.NETHERITE_SCYTHE.get())
                                 .pattern("NNS")
                                 .pattern(" S ")
@@ -29,6 +31,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                 .define('S', Items.STICK)
                                 .define('N', Items.NETHERITE_INGOT)
                                 .unlockedBy("has_stick", has(Items.NETHERITE_INGOT)).save(recipeOutput);
+
+                // Netherite Scythe Catalyst recipes builder
 
                 addCatalystRecipes(recipeOutput, ModItems.COMBAT_TEMPLATE.get(), ModItems.BLAZING_CATALYST.get(),
                                 "blazing");
@@ -62,7 +66,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                         .getKey(weapon)
                                                         .getPath());
                 }
-
+                // Axes
                 net.minecraft.world.item.Item[] axes = {
                                 Items.WOODEN_AXE, Items.STONE_AXE, Items.IRON_AXE,
                                 Items.GOLDEN_AXE, Items.DIAMOND_AXE, Items.NETHERITE_AXE
@@ -73,21 +77,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                         .getKey(weapon)
                                                         .getPath());
                 }
-
+                // Netherite Scythe
                 catalystSmithing(recipeOutput, template, ModItems.NETHERITE_SCYTHE.get(), catalyst,
                                 ModItems.NETHERITE_SCYTHE.get(), prefix + "_netherite_scythe");
-
+                // Trident
                 if (catalyst != ModItems.SERRATED_CATALYST.get()) {
                         catalystSmithing(recipeOutput, template, Items.TRIDENT, catalyst, Items.TRIDENT,
                                         prefix + "_trident");
+                        // Mace
                         catalystSmithing(recipeOutput, template, Items.MACE, catalyst, Items.MACE, prefix + "_mace");
                 }
         }
+
+        // Piercing Catalyst recipes builder (Trident only)
 
         private void addPiercingRecipe(RecipeOutput recipeOutput) {
                 catalystSmithing(recipeOutput, ModItems.SPECIAL_TEMPLATE.get(), Items.TRIDENT,
                                 ModItems.PIERCING_CATALYST.get(), Items.TRIDENT, "piercing_catalyst_trident");
         }
+
+        // Haste Catalyst recipes builder (Tools only)
 
         private void addHasteRecipes(RecipeOutput recipeOutput) {
                 net.minecraft.world.item.Item template = ModItems.TOOL_TEMPLATE.get();
@@ -112,6 +121,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                         .getPath());
                 }
         }
+
+        // Catalyst Smithing recipe builder
 
         private void catalystSmithing(RecipeOutput recipeOutput, net.minecraft.world.item.Item template,
                         net.minecraft.world.item.Item base, net.minecraft.world.item.Item addition,

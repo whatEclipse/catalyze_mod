@@ -8,6 +8,8 @@ import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.whateclipse.catalyze_mod.effects.ModEffects;
+import net.whateclipse.catalyze_mod.items.weapons.NetheriteScytheItem;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -20,10 +22,7 @@ public class SwordItemMixin {
     public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker,
             CallbackInfoReturnable<Boolean> cir) {
         if (!stack.isEmpty()) {
-            // Check for the custom NBT/DataComponent
-            // In newer NeoForge/MC versions, direct NBT access is discouraged in favor of
-            // DataComponents,
-            // but assuming we are looking for a simple persistent data tag for now.
+            // Check for the custom NBT/DataComponent to apply catalyzation effects
             CustomData customData = stack.get(DataComponents.CUSTOM_DATA);
             if (customData != null && customData.contains("catalyze_mod")) {
                 net.minecraft.nbt.CompoundTag modTag = customData.copyTag().getCompound("catalyze_mod");
@@ -69,10 +68,14 @@ public class SwordItemMixin {
                         }
                     }
                 }
-                if (modTag.getBoolean("blood_reaper")) {
-                    net.minecraft.world.phys.Vec3 direction = attacker.position().subtract(target.position())
-                            .normalize();
-                    target.setDeltaMovement(direction.scale(0.5));
+
+                // Scythe specific effects
+                if (stack.getItem() instanceof NetheriteScytheItem) {
+                    if (modTag.getBoolean("blood_reaper")) {
+                        net.minecraft.world.phys.Vec3 direction = attacker.position().subtract(target.position())
+                                .normalize();
+                        target.setDeltaMovement(direction.scale(0.5));
+                    }
                 }
             }
         }
