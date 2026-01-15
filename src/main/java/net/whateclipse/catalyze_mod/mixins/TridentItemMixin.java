@@ -40,31 +40,6 @@ public class TridentItemMixin {
                         target.addEffect(new MobEffectInstance(ModEffects.BLEEDING, 100, 0, false, false, true));
                     }
                 }
-                if (modTag.getBoolean("serrated")) {
-                    if (!net.whateclipse.catalyze_mod.util.ModTags.EntityTypes.isImmuneToBleeding(target)) {
-                        int armorPieces = 0;
-                        for (ItemStack armor : target.getArmorSlots()) {
-                            if (!armor.isEmpty())
-                                armorPieces++;
-                        }
-                        float chance = 0.30f;
-                        if (armorPieces == 1)
-                            chance -= 0.05f;
-                        else if (armorPieces == 2)
-                            chance -= 0.12f;
-                        else if (armorPieces == 3)
-                            chance -= 0.20f;
-                        else if (armorPieces == 4)
-                            chance -= 0.28f;
-
-                        // Apply Level 1 Bleeding
-                        target.addEffect(new MobEffectInstance(ModEffects.BLEEDING, 100, 0, false, false, true));
-                        // 30% base chance (minus armor reduction) to apply Level 2 instead
-                        if (Math.random() < chance) {
-                            target.addEffect(new MobEffectInstance(ModEffects.BLEEDING, 100, 1, false, false, true));
-                        }
-                    }
-                }
             }
         }
     }

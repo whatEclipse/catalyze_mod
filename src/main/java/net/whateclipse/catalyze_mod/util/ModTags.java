@@ -19,15 +19,11 @@ public class ModTags {
                     ResourceLocation.fromNamespaceAndPath(Catalyze_mod.MODID, name));
         }
 
-        /**
-         * Checks if an entity is immune to the bleeding effect.
-         * Includes hardcoded fallbacks for vanilla inorganic mobs to ensure
-         * reliability.
-         */
+
         public static boolean isImmuneToBleeding(LivingEntity entity) {
             EntityType<?> type = entity.getType();
 
-            // Hardcoded fallbacks for guaranteed immunity on inorganic/non-fleshy mobs
+            // Hardcoded fallbacks for guaranteed immunity to bleeding
             if (type == EntityType.IRON_GOLEM ||
                     type == EntityType.SNOW_GOLEM ||
                     type == EntityType.SHULKER ||

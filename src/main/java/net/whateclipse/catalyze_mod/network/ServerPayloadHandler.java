@@ -24,11 +24,11 @@ public class ServerPayloadHandler {
                         long cooldownEnd = modTag.getLong("haste_cooldown_end");
 
                         if (currentTime >= cooldownEnd) {
-                            // Apply Haste III (Amplifier 2) for 20 seconds (400 ticks)
+                            // Apply Haste 3 for 20 seconds
                             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 400, 2));
 
-                            // Set Cooldown (1 minute = 1200 ticks)
-                            modTag.putLong("haste_cooldown_end", currentTime + 1200);
+                            // Set Cooldown 2 minutes
+                            modTag.putLong("haste_cooldown_end", currentTime + 2400);
 
                             // Update Item NBT
                             net.minecraft.nbt.CompoundTag rootTag = customData.copyTag();

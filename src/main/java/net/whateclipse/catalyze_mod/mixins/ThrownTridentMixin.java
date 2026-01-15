@@ -70,20 +70,18 @@ public abstract class ThrownTridentMixin extends AbstractArrow {
                     ((AbstractArrowAccessor) this).setPiercingIgnoreEntityIds(ignoreSet);
                 }
 
-                // Skip entities we've already hit (this is also checked by vanilla collision
-                // detection)
+                // Skip entities we've already hit 
                 if (ignoreSet.contains(target.getId())) {
                     ci.cancel();
                     return;
                 }
 
-                // Add to vanilla's ignore list - this prevents collision detection from
-                // re-triggering
+                // Add to vanilla's ignore list
                 ignoreSet.add(target.getId());
 
                 // Server-side logic for damage and effects
                 if (!this.level().isClientSide) {
-                    // Skip Endermen (they teleport away from projectiles)
+                    // Skip Endermen 
                     if (target.getType() != EntityType.ENDERMAN) {
                         float damage = 8.0F;
                         Entity owner = this.getOwner();

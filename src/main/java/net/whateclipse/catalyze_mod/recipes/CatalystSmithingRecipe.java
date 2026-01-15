@@ -43,8 +43,7 @@ public class CatalystSmithingRecipe extends SmithingTransformRecipe {
 
     @Override
     public boolean isSpecial() {
-        return true; // Use this if we want to denote it's special, though strictly not necessary for
-                     // functionality typically
+        return true;
     }
 
     @Override
