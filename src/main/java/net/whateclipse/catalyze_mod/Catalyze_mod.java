@@ -21,6 +21,7 @@ import net.whateclipse.catalyze_mod.creativetabs.ModCreativeTabs;
 import net.whateclipse.catalyze_mod.effects.ModEffects;
 import net.whateclipse.catalyze_mod.items.ModItems;
 import net.whateclipse.catalyze_mod.particles.ModParticleTypes;
+import net.whateclipse.catalyze_mod.loot.ModLootModifiers;
 import net.whateclipse.catalyze_mod.recipes.ModRecipes;
 import org.slf4j.Logger;
 
@@ -42,7 +43,7 @@ public class Catalyze_mod {
         ModRecipes.register(modEventBus);
         ModEffects.register(modEventBus);
         ModParticleTypes.register(modEventBus);
-
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -64,7 +65,6 @@ public class Catalyze_mod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
     }
-
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {

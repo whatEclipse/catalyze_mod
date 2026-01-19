@@ -11,7 +11,7 @@ import net.whateclipse.catalyze_mod.Catalyze_mod;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber (modid = Catalyze_mod.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = Catalyze_mod.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
@@ -23,6 +23,8 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput, lookupProvider));
 
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ModGlobalLootModifierProvider(packOutput, lookupProvider));
 
     }
 }
