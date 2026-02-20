@@ -22,6 +22,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 
 @Mixin(ThrownTrident.class)
 public abstract class ThrownTridentMixin extends AbstractArrow {
@@ -70,7 +71,7 @@ public abstract class ThrownTridentMixin extends AbstractArrow {
                     ((AbstractArrowAccessor) this).setPiercingIgnoreEntityIds(ignoreSet);
                 }
 
-                // Skip entities we've already hit 
+                // Skip entities we've already hit
                 if (ignoreSet.contains(target.getId())) {
                     ci.cancel();
                     return;
@@ -81,9 +82,24 @@ public abstract class ThrownTridentMixin extends AbstractArrow {
 
                 // Server-side logic for damage and effects
                 if (!this.level().isClientSide) {
-                    // Skip Endermen 
+                    // Skip Endermen
                     if (target.getType() != EntityType.ENDERMAN) {
                         float damage = 8.0F;
+
+                        if (this.level() instanceof ServerLevel serverLv) {
+                            var registry = serverLv.registryAccess()
+                                    .lookupOrThrow(net.minecraft.core.registries.Registries.ENCHANTMENT);
+                            var impalingHolder = registry
+                                    .getOrThrow(net.minecraft.world.item.enchantment.Enchantments.IMPALING);
+                            net.minecraft.world.item.enchantment.ItemEnchantments enchants = stack.getOrDefault(
+                                    net.minecraft.core.component.DataComponents.ENCHANTMENTS,
+                                    net.minecraft.world.item.enchantment.ItemEnchantments.EMPTY);
+                            int impalingLevel = enchants.getLevel(impalingHolder);
+                            if (impalingLevel > 0) {
+                                damage += (impalingLevel * 2.0F);
+                            }
+                        }
+
                         Entity owner = this.getOwner();
                         DamageSource source = this.damageSources().trident(this, owner == null ? this : owner);
 
@@ -107,6 +123,26 @@ public abstract class ThrownTridentMixin extends AbstractArrow {
                 ci.cancel();
             }
         }
+    }
+
+    @ModifyArg(method = "onHitEntity", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/Entity;hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z"), index = 1)
+    private float modifyVanillaTridentDamage(float originalDamage) {
+        if (this.level() instanceof ServerLevel serverLevel) {
+            ItemStack stack = ((AbstractArrowAccessor) this).invokeGetPickupItem();
+            var registry = serverLevel.registryAccess()
+                    .lookupOrThrow(net.minecraft.core.registries.Registries.ENCHANTMENT);
+            var impalingHolder = registry.getOrThrow(net.minecraft.world.item.enchantment.Enchantments.IMPALING);
+
+            net.minecraft.world.item.enchantment.ItemEnchantments enchants = stack.getOrDefault(
+                    net.minecraft.core.component.DataComponents.ENCHANTMENTS,
+                    net.minecraft.world.item.enchantment.ItemEnchantments.EMPTY);
+
+            int impalingLevel = enchants.getLevel(impalingHolder);
+            if (impalingLevel > 0) {
+                return originalDamage + (impalingLevel * 2.0F);
+            }
+        }
+        return originalDamage;
     }
 
     private void manualChannelingLogic(Entity target) {

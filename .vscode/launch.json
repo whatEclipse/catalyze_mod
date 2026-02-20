@@ -12,11 +12,11 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -34,11 +34,11 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -56,11 +56,11 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -78,11 +78,11 @@
       "projectName": "catalyze_mod",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunProgramArgs.txt"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\CatalyzeRepo\\catalyze_mod\\bin\\main"
+        "@C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcatalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},

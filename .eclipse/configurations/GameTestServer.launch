@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="catalyze_mod"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.neoforged.devlaunch.Main"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" @C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunProgramArgs.txt"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" @C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\build\\moddev\\gameTestServerRunVmArgs.txt -Dfml.modFolders=catalyze_mod%%C:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\CatalyzeRepo\\catalyze_mod\\bin\\main"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Daniele\OneDrive\Documenti\Repositories\CatalyzeRepo\catalyze_mod\run"></stringAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="false"></booleanAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"></booleanAttribute>
+</launchConfiguration>
